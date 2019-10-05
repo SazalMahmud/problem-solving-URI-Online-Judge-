@@ -1,0 +1,21 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+ int main()
+ {
+        int c;
+        char L[1000];
+
+         scanf("%[^\t\n]s",L);
+         c=strlen(L);
+         if(c<=80)
+         printf("YES\n");
+         else
+            printf("NO\n");
+
+      return 0;
+ }

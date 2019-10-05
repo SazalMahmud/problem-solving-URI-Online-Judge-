@@ -1,0 +1,20 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main()
+{
+    char m[100];
+    double p ,k, TOTAL,TOTAL2;
+    scanf("%s",m);
+    scanf("%lf",&p);
+    scanf("%lf",&k);
+    TOTAL=(k*.15);
+    TOTAL2=(TOTAL+p);
+    printf("TOTAL = R$ %.2f\n",TOTAL2);
+    return 0;
+
+}

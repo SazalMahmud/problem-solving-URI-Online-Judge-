@@ -1,0 +1,19 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main()
+{
+    int sazal,monir;
+    for(sazal=1; sazal<10; sazal+=2)
+    {
+        for(monir=7; monir>4; monir--)
+        printf("I=%d J=%d\n",sazal,monir);
+
+    }
+
+    return 0;
+}

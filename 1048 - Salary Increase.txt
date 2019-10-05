@@ -1,0 +1,59 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main()
+{
+    double x,novo,Reajuste;
+    scanf("%lf",&x);
+
+    if(x>=0.0 && x<=400.00)
+    {
+        novo=(x+(x*.15));
+        Reajuste=(x*.15);
+        printf("Novo salario: %.2f\n",novo);
+        printf("Reajuste ganho: %.2f\n",Reajuste);
+        printf("Em percentual: 15 %%\n");
+
+    }
+    else if(x>=400.01 && x<=800.00)
+    {
+        novo=(x+(x*.12));
+        Reajuste=(x*.12);
+        printf("Novo salario: %.2f\n",novo);
+        printf("Reajuste ganho: %.2f\n",Reajuste);
+        printf("Em percentual: 12 %%\n");
+
+    }
+    else if(x>=800.01 && x<=1200.00)
+    {
+        novo=(x+(x*.10));
+        Reajuste=(x*.10);
+        printf("Novo salario: %.2f\n",novo);
+        printf("Reajuste ganho: %.2f\n",Reajuste);
+        printf("Em percentual: 10 %%\n");
+
+    }
+   else if(x>=1200.01 && x<=2000.00)
+    {
+        novo=(x+(x*.07));
+        Reajuste=(x*.07);
+        printf("Novo salario: %.2f\n",novo);
+        printf("Reajuste ganho: %.2f\n",Reajuste);
+        printf("Em percentual: 7 %%\n");
+
+    }
+    else if (x>=2000.01)
+    {
+        novo=(x+(x*.04));
+        Reajuste=(x*.04);
+        printf("Novo salario: %.2f\n",novo);
+        printf("Reajuste ganho: %.2f\n",Reajuste);
+        printf("Em percentual: 4 %%\n");
+
+    }
+    return 0;
+}

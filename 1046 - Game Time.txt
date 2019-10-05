@@ -1,0 +1,32 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main()
+{
+    int A,B,x,y;
+    scanf("%d",&A);
+    scanf("%d",&B);
+    if(A>B)
+
+       {
+          x=24-(A-B);
+
+
+          printf("O JOGO DUROU %d HORA(S)\n",x);
+       }
+       else if(A<B)
+        {
+          y=B-A;
+          printf("O JOGO DUROU %d HORA(S)\n",y);
+        }
+
+        else
+        {
+          printf("O JOGO DUROU 24 HORA(S)\n");
+        }
+        return 0;
+}

@@ -1,0 +1,18 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main()
+{
+    double n,sum1,sum2;
+    scanf("%lf",&n);
+    sum1=n/log(n);
+    sum2=(1.25506)*(n/log(n));
+    printf("%.1lf %.1lf\n",sum1,sum2);
+
+
+    return 0;
+}

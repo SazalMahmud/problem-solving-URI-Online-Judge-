@@ -1,0 +1,21 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+    int i,j,k,start=7;
+
+    for(i=1; i<=9; i+=2)
+    {
+        for( k=0,j=start; k<=2; k++, j--)
+        printf("I=%d J=%d\n",i,j);
+        start+=2;
+    }
+
+    return 0;
+}

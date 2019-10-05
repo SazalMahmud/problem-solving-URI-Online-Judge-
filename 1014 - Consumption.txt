@@ -1,0 +1,19 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main()
+{
+    int X;
+    double Y,total;
+    scanf("%d",&X);
+    scanf("%lf",&Y);
+    total=X/Y;
+    printf("%.3f km/l\n",total);
+    return 0;
+
+
+}

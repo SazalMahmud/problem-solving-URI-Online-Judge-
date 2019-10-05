@@ -1,0 +1,35 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main()
+{
+    int a,h,f,ti,t,fi,tw,one;
+    scanf("%d",&a);
+    printf("%d\n",a);
+    h=a/100;
+    a=a-h*100;
+    f=a/50;
+    a=a-f*50;
+    ti=a/20;
+    a=a-ti*20;
+    t=a/10;
+    a=a-t*10;
+    fi=a/5;
+    a=a-fi*5;
+    tw=a/2;
+    a=a-tw*2;
+    one=a;
+    printf("%d nota(s) de R$ 100,00\n",h);
+    printf("%d nota(s) de R$ 50,00\n",f);
+    printf("%d nota(s) de R$ 20,00\n",ti);
+    printf("%d nota(s) de R$ 10,00\n",t);
+    printf("%d nota(s) de R$ 5,00\n",fi);
+    printf("%d nota(s) de R$ 2,00\n",tw);
+    printf("%d nota(s) de R$ 1,00\n",one);
+    return 0;
+
+}

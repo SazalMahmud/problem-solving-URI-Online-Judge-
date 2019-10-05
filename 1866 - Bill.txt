@@ -1,0 +1,23 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+ int main()
+ {
+     int sazal,monir, shamim;
+     scanf("%d",&sazal);
+     for(monir=1; monir<=sazal; monir++)
+     {
+         scanf("%d",&shamim);
+         if(shamim%2==0)
+            printf("0\n");
+
+
+         else
+         printf("1\n");
+     }
+     return 0;
+ }

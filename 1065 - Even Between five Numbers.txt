@@ -1,0 +1,23 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+  int main()
+{
+   int i,sazal,total_even=0;
+
+   for(i=0; i<5; i++)
+{
+    scanf("%d",&sazal);
+    if(sazal%2==0)
+    total_even++;
+
+
+}
+     printf("%d valores pares\n",total_even);
+     return 0;
+
+}

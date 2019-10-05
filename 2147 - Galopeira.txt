@@ -1,0 +1,22 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main()
+ {
+     int a,i,c;
+
+     char type_number[10010];
+     scanf("%d",&a);
+     for(i=1; i<=a; i++)
+     {
+         scanf("%s",type_number);
+         c=strlen(type_number);
+         printf("%.2lf\n",c*.01);
+     }
+
+      return 0;
+ }

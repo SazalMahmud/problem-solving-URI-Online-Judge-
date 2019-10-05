@@ -1,0 +1,37 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main()
+{
+    double sazal;
+    scanf("%lf",&sazal);
+    if(sazal<0 || sazal>100)
+    {
+        printf("Fora de intervalo\n");
+    }
+    else if(sazal>=0 && sazal<=25)
+     {
+          printf("Intervalo [0,25]\n");
+     }
+    else if(sazal>25 && sazal<=50)
+      {
+          printf("Intervalo (25,50]\n");
+      }
+    else if(sazal>50 && sazal<=75)
+        {
+             printf("Intervalo (50,75]\n");
+        }
+
+   else if(sazal>75 && sazal<=100)
+    {
+        printf("Intervalo (75,100]\n");
+    }
+
+
+    return 0;
+
+}

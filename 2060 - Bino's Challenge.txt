@@ -1,0 +1,32 @@
+#include<stdio.h>
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+{
+    int a,i,first=0,second=0,thard=0,four=0,input;
+    scanf("%d",&a);
+    for(i=1; i<=a; i++)
+    {
+        scanf("%d",&input);
+        if(input%2==0)
+            first++;
+             if(input%3==0)
+            second++;
+             if(input%4==0)
+            thard++;
+             if(input%5==0)
+            four++;
+
+    }
+    printf("%d Multiplo(s) de 2\n",first);
+    printf("%d Multiplo(s) de 3\n",second);
+    printf("%d Multiplo(s) de 4\n",thard);
+    printf("%d Multiplo(s) de 5\n",four);
+
+
+return 0;
+}

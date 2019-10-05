@@ -1,0 +1,16 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main()
+{
+    int X,sum;
+    scanf("%d",&X);
+    sum=X*2;
+    printf("%d minutos\n",sum);
+    return 0;
+
+}

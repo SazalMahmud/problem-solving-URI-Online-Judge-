@@ -1,0 +1,43 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main()
+{
+    int X,Y;
+    double m;
+    scanf("%d",&X);
+    scanf("%d",&Y);
+
+    if(X==1)
+    {
+        m=Y*4.00;
+        printf("Total: R$ %.2f\n",m);
+    }
+     if(X==2)
+    {
+        m=Y*4.50;
+        printf("Total: R$ %.2f\n",m);
+    }
+      if(X==3)
+    {
+        m=Y*5.00;
+        printf("Total: R$ %.2f\n",m);
+    }
+     if(X==4)
+    {
+        m=Y*2.00;
+        printf("Total: R$ %.2f\n",m);
+    }
+     if(X==5)
+    {
+        m=Y*1.50;
+        printf("Total: R$ %.2f\n",m);
+    }
+
+    return 0;
+
+}

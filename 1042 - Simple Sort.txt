@@ -1,0 +1,39 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main()
+{
+    int sazal,shamim,monir;
+    scanf("%d%d%d",&sazal,&shamim,&monir);
+
+    if(sazal<shamim && sazal<monir)
+    {
+        if(shamim<monir)
+            printf("%d\n%d\n%d\n",sazal,shamim,monir);
+          else
+            printf("%d\n%d\n%d\n",sazal,monir,shamim);
+    }
+
+     if(shamim<sazal && shamim<monir)
+    {
+        if(monir<sazal)
+            printf("%d\n%d\n%d\n",shamim,monir,sazal);
+          else
+            printf("%d\n%d\n%d\n",shamim,sazal,monir);
+    }
+     if(monir<sazal && monir<shamim)
+    {
+        if(sazal<shamim)
+            printf("%d\n%d\n%d\n",monir,sazal,shamim);
+          else
+          printf("%d\n%d\n%d\n",monir,shamim,sazal);
+    }
+
+    printf("\n%d\n%d\n%d\n",sazal,shamim,monir);
+
+    return 0;
+}

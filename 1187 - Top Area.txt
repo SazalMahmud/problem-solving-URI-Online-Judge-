@@ -1,0 +1,37 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+ int main()
+ {
+     double count=0.0,M[12][12];
+     char choice[2];
+     int i,j, end=10, start=1,z,a;
+     scanf("%s",&choice);
+     for(i=0; i<12; i++)
+     {
+         for(j=0; j<12; j++)
+            scanf("%lf",&M[i][j]);
+     }
+     for(z=0; z<5; z++)
+     {
+         for(a=start; a<=end; a++)
+             count+=M[z][a];
+
+         end--;
+         start++;
+
+     }
+     if(choice[0]=='S')
+        printf("%.1lf\n",count);
+     else if(choice[0]=='M')
+     {
+     count=count/30.0;
+         printf("%.1lf\n",count);
+     }
+
+
+ }

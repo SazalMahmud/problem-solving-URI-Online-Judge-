@@ -1,0 +1,20 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main()
+{
+    int N[100],i;
+    double T;
+    scanf("%lf",&T);
+    for(i=0; i<100; i++){
+            printf("N[%d] = %.4lf\n",i,T);
+            T/=2;
+
+
+    }
+    return 0;
+}

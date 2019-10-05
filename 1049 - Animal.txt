@@ -1,0 +1,36 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main()
+{
+    char sazal[20];
+    char shamim[20];
+    char monir [20];
+    scanf("%s",sazal);
+    scanf("%s",shamim);
+    scanf("%s",monir);
+
+    if(sazal[0]=='v' && shamim[0]=='a' && monir[1]=='a')
+    printf("aguia\n");
+    if(sazal[0]=='v' && shamim[0]=='a' && monir[1]=='n')
+    printf("pomba\n");
+    if(sazal[0]=='v' && shamim[0]=='m' && monir[1]=='n')
+    printf("homem\n");
+    if(sazal[0]=='v' && shamim[0]=='m' && monir[1]=='e')
+    printf("vaca\n");
+
+    if(sazal[0]=='i' && shamim[0]=='i' && monir[2]=='m')
+    printf("pulga\n");
+    if(sazal[0]=='i' && shamim[0]=='i' && monir[2]=='r')
+    printf("lagarta\n");
+    if(sazal[0]=='i' && shamim[0]=='a' && monir[1]=='e')
+    printf("sanguessuga\n");
+    if(sazal[0]=='i' && shamim[0]=='a' && monir[1]=='n')
+    printf("minhoca\n");
+
+    return 0;
+}

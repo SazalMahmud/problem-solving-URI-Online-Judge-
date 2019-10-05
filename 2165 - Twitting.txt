@@ -1,0 +1,20 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main()
+{
+    int tumpa;
+    char T[510];
+    scanf("%[^\t\n]s",T);
+    tumpa=strlen(T);
+    if(tumpa<=140)
+        printf("TWEET\n");
+    else
+        printf("MUTE\n");
+
+    return 0;
+}

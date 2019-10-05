@@ -1,0 +1,26 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main()
+{
+    int arr[100],location=1 ,c,max;
+      for(c=0; c<=100; c++)
+        scanf("%d",&arr[c]);
+
+    max=arr[0];
+    for(c=1; c<=100; c++)
+    {
+        if(arr[c]>max)
+        {
+            max=arr[c];
+            location=c+1;
+        }
+    }
+    printf("%d\n",max);
+    printf("%d\n",location);
+    return 0;
+}

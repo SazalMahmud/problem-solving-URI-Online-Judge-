@@ -1,0 +1,17 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main()
+{
+    int N,SAZAL;
+    while(scanf("%d",&N)!=EOF)
+    {
+      SAZAL=log2(N);
+      printf("%d\n",SAZAL);
+    }
+    return 0;
+}

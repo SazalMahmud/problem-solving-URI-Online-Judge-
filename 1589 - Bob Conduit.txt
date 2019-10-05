@@ -1,0 +1,22 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main()
+{
+    int i,R1,R2,sazal,santo;
+    scanf("%d",&sazal);
+
+    for(i=1; i<=sazal; i++)
+    {
+        scanf("%d",&R1);
+        scanf("%d",&R2);
+        santo=R1+R2;
+        printf("%d\n",santo);
+
+    }
+return 0;
+}

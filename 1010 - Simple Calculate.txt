@@ -1,0 +1,22 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main()
+{
+    int x,y,z,m;
+    double p ,k, PAGAR;
+    scanf("%d",&x);
+    scanf("%d",&y);
+    scanf("%lf",&p);
+    scanf("%d",&z);
+    scanf("%d",&m);
+    scanf("%lf",&k);
+    PAGAR=(y*p)+(m*k);
+    printf("VALOR A PAGAR: R$ %.2f\n",PAGAR);
+    return 0;
+
+}

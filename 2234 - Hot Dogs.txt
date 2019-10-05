@@ -1,0 +1,15 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main()
+{
+    double M,P,SUM;
+    scanf("%lf %lf",&P,&M);
+    SUM=P/M;
+    printf("%.2lf\n", SUM);
+    return 0;
+}

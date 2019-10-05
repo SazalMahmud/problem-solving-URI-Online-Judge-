@@ -1,0 +1,18 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main()
+{
+    int time,speed;
+    double distance;
+    scanf("%d",& time);
+    scanf("%d",& speed);
+    distance=(speed*time)/12.0;
+    printf("%.3f\n",distance);
+    return 0;
+
+}

@@ -1,0 +1,38 @@
+//Sazal Mahmud
+//Department of CSE, DIU
+//sazalmahmud46@gmail.com
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main()
+{
+  int i,j,n=1;
+  double M[12][12],sum=0.0,avg;
+  char T[2];
+  scanf("%s",&T);
+   for(i=0; i<12; i++){
+    for(j=0; j<12; j++)
+    {
+        scanf("%lf",&M[i][j]);
+    }
+   }
+    for(i=0; i<=11; i++){
+            for(j=n; j<=11; j++)
+            {
+                sum+=M[i][j];
+            }
+            n++;
+
+    }
+
+    if(T[0]=='S')
+        printf("%.1lf\n",sum);
+    else if(T[0]=='M')
+        {
+        avg=sum/66.0;
+    printf("%.1lf\n",avg);
+
+   }
+   return 0;
+}
